@@ -229,10 +229,7 @@ var  xhr = new XMLHttpRequest();
 //Step 02:initatiate a connection(starting a connections)
 //true is used if your api doesnot want to affect the remaining  execution of your code
 
-
 xhr.onload = function(){
-
-
 
 var t = JSON.parse(this.response);
 
